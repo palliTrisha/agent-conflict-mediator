@@ -17,18 +17,19 @@
 }
 
 :root {
-  --background: #f4f4f1;
-  --foreground: #18212b;
-  --primary: #18212b;
+  --background: #e8ddd0;
+  --foreground: #2c241e;
+  --primary: #6b4632;
   --primary-foreground: #ffffff;
-  --border: #cfd3d1;
-  --muted: #eef1ef;
-  --muted-foreground: #617078;
-  --ring: #62737b;
-  --input: #b8c0bd;
+  --border: #bcae9f;
+  --muted: #f1e7dc;
+  --muted-foreground: #806c5d;
+  --ring: #8b6149;
+  --input: #bcae9f;
 }
 
 * { @apply border-border; }
-body { @apply bg-background text-foreground; }
+body { @apply bg-background text-foreground; font-family: Arial, Helvetica, sans-serif; }
+.font-serif { font-family: Georgia, 'Times New Roman', serif; }
 button, textarea { font: inherit; }
-::selection { background: #d9e3df; color: #18212b; }
+::selection { background: #ddc8b5; color: #2c241e; }
