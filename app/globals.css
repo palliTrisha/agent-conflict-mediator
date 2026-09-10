@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
@@ -17,19 +18,21 @@
 }
 
 :root {
-  --background: #e8ddd0;
-  --foreground: #2c241e;
-  --primary: #6b4632;
-  --primary-foreground: #ffffff;
-  --border: #bcae9f;
-  --muted: #f1e7dc;
-  --muted-foreground: #806c5d;
-  --ring: #8b6149;
-  --input: #bcae9f;
+  --background: #FFFBF7;
+  --foreground: #4D688C;
+  --primary: #4D688C;
+  --primary-foreground: #FFFBF7;
+  --border: #4D688C;
+  --muted: #E9F0FA;
+  --muted-foreground: #4D688C;
+  --ring: #4D688C;
+  --input: #4D688C;
 }
 
 * { @apply border-border; }
-body { @apply bg-background text-foreground; font-family: Arial, Helvetica, sans-serif; }
-.font-serif { font-family: Georgia, 'Times New Roman', serif; }
+body { @apply bg-background text-foreground; font-family: 'Alexandria', Arial, sans-serif; }
+.font-serif { font-family: 'Alexandria', Arial, sans-serif; font-weight: 600; }
 button, textarea { font: inherit; }
-::selection { background: #ddc8b5; color: #2c241e; }
+::selection { background: #E9F0FA; color: #4D688C; }
+
+
